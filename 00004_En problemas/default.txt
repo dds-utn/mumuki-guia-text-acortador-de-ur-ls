@@ -1,0 +1,7 @@
+public class Acortador {
+  public String generarUrlCorta(String urlLarga) {
+  
+  }
+
+
+}
