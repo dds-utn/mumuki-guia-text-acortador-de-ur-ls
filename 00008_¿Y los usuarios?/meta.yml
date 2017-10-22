@@ -1,0 +1,22 @@
+---
+tags: []
+layout: input_bottom
+editor: single_choice
+type: problem
+extra_visible: false
+language: 
+teacher_info: 
+manual_evaluation: false
+choices:
+- value: Nuestra aplicación no necesitará del concepto de usuario ni formularios de
+    registración o inicio de sesión
+  checked: true
+- value: Nuestra aplicación no necesitará del concepto de usuario, pero sí formularios
+    de registración e inicio de sesión
+  checked: false
+- value: Nuestra aplicación necesitará del concepto de usuario y  formularios de registración
+    e inicio de sesión
+  checked: false
+- value: Nuestra aplicación necesitará del concepto de usuario, pero no formularios
+    de registración o inicio de sesión
+  checked: false
