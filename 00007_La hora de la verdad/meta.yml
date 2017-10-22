@@ -1,0 +1,16 @@
+---
+tags: []
+layout: input_bottom
+editor: single_choice
+type: problem
+extra_visible: false
+language: 
+teacher_info: 
+manual_evaluation: false
+choices:
+- value: Una aplicación Web
+  checked: true
+- value: Una aplicación de escritorio
+  checked: false
+- value: Una aplicación de línea de comandos
+  checked: false
