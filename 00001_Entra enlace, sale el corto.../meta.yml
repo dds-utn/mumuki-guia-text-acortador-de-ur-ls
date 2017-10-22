@@ -15,4 +15,4 @@ choices:
 - value: Sin importar la URL ingresada, se genera una URL corta de igual longitud
   checked: true
 - value: Si se ingresa dos veces la misma URL, se genera la misma URL corta
-  checked: true
+  checked: false
