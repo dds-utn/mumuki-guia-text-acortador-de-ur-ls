@@ -1,10 +1,18 @@
 ---
 tags: []
-layout: input_right
-editor: code
+layout: input_bottom
+editor: multiple_choice
 type: problem
 extra_visible: false
 language: 
 teacher_info: 
 manual_evaluation: false
-choices: []
+choices:
+- value: Sin importar la URL ingresada, se genera la misma URL corta
+  checked: false
+- value: Sin importar la URL ingresada, se genera una URL corta siempre diferente
+  checked: false
+- value: Sin importar la URL ingresada, se genera una URL corta de igual longitud
+  checked: true
+- value: Si se ingresa dos veces la misma URL, se genera la misma URL corta
+  checked: true
