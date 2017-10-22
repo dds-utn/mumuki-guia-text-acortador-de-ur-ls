@@ -6,5 +6,7 @@ Pensá que si el dominio de la función (en este caso, URLs largas) es más gran
 
 ...inevitablemente habrá colisiones: dos URLs largas diferentes generarán la misma URL corta. :confused: Matemáticamente hablando, decimos que una función de hash es _no inyectiva_, 
 
-> ¿Qué podemos hacer si hay una colisión?
+> ¿Qué podemos hacer si hay una colisión? 
+> 
+> Enviá el código a continuación y fijate que  
 

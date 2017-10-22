@@ -5,6 +5,7 @@ public class MD5 {
     urls.put("http://misitio.com/bar", "BBB");
     urls.put("http://misitio.com/baz", "CCC");
     urls.put("http://misitio.com/foobar", "AAA");
-    return urls.get(entrada);
+    urls.put("http://misitio.com/foobar2", "AAA");
+    return urls.getOrDefault(entrada, entrada);
   }
 }
