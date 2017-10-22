@@ -12,6 +12,7 @@ Digest::MD5.base64digest("Hola Mundo") # representado en base 64
 
 Digest::SHA1.hexdigest("Hola Mundo")
 # etc...
+
 ```
 
 > ¡Probalo! Calculá el hash md5 de `'https://mumuki.io'` y `'https://en.wikipedia.org/wiki/Hash_function'`

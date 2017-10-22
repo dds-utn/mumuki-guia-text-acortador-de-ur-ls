@@ -1,0 +1,18 @@
+---
+tags: []
+layout: input_bottom
+editor: single_choice
+type: problem
+extra_visible: false
+language: 
+teacher_info: 
+manual_evaluation: false
+choices:
+- value: Guardarlo como una variable de instancia de la clase `Acortador`
+  checked: false
+- value: Guardarlo como una variable global
+  checked: false
+- value: Guardarlo en una base de datos persistente
+  checked: true
+- value: Guardarlo en una base de datos en memoria
+  checked: false
