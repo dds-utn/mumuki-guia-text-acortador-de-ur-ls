@@ -7,8 +7,11 @@ Existen muchas funciones de hash bien conocidas, como **MD5** y **SHA1** (ambas 
 Por ejemplo, en Ruby podemos calcular estos hashes de la siguiente forma: 
 
 ```ruby
-Digest::MD5.hexdigest("Hola Mundo")
+Digest::MD5.hexdigest("Hola Mundo")    # representado en hexadecimal (base 16)
+Digest::MD5.base64digest("Hola Mundo") # representado en base 64
+
 Digest::SHA1.hexdigest("Hola Mundo")
+# etc...
 ```
 
 > ¡Probalo! Calculá el hash md5 de `'https://mumuki.io'` y `'https://en.wikipedia.org/wiki/Hash_function'`
