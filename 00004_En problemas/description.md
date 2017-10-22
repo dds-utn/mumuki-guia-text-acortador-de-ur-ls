@@ -8,5 +8,5 @@ Pensá que si el dominio de la función (en este caso, URLs largas) es más gran
 
 > ¿Qué podemos hacer si hay una colisión? 
 > 
-> Enviá el código a continuación y fijate que  
+> Enviá el código a continuación: vas a ver que no siempre anda. ¡Modificá la clase `Acortador` para que funcione aún cuando hay colisiones!
 
