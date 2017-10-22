@@ -1,16 +1,10 @@
 public class MD5 {
   public static String generar(String entrada) {
-    MessageDigest m = java.security.MessageDigest.getInstance("MD5");
-    m.reset();
-    m.update(entrada.getBytes());
-    
-    byte[] digest = m.digest();
-    BigInteger bigInt = new BigInteger(1,digest);
-    String hashtext = bigInt.toString(16);
-    
-    while(hashtext.length() < 32 ){
-      hashtext = "0"+hashtext;
-    }
-    return hashtext;
+    Map<String, String> urls = new HashMap<>();
+    urls.put("http://misitio.com/foo", "AAA");
+    urls.put("http://misitio.com/bar", "BBB");
+    urls.put("http://misitio.com/baz", "CCC");
+    urls.put("http://misitio.com/foobar", "AAA");
+    return urls.get(entrada);
   }
 }
