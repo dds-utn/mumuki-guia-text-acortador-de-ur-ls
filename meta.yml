@@ -1,9 +1,10 @@
 ---
-name: Acortador de URLs
+name: Acortador de enlaces
 locale: es
 type: learning
 beta: false
 teacher_info: ''
 language: text
 id_format: "%05d"
-order: []
+order:
+- 1
