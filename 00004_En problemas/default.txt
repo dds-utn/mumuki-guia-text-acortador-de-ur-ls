@@ -1,7 +1,12 @@
 public class Acortador {
-  public String generarUrlCorta(String urlLarga) {
+  private String dominio;
   
+  public Acortador(String dominio) {
+    this.dominio = dominio;
   }
-
-
+  
+  public String generarUrlCorta(String urlLarga) {
+    String hash = calcularMd5(urlLarga);
+    return "http://" + dominio + "/" + hash;
+  }
 }
