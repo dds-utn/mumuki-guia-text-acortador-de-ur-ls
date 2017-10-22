@@ -3,7 +3,28 @@ name: Acortador de enlaces
 locale: es
 type: learning
 beta: false
-teacher_info: ''
+teacher_info: "Tengo una página y tengo muchas URLs y puedo direccionar a otras páginas\nDice
+  que hay un diccionario\n\n\n(Nota mental: se centró en el dominio y no en la aplicación)\n\n\n>>
+  Acá le digo que piense en que tiene que implementarlo. \nDice que hay que guardar
+  las correspondencias de URLs. \n\n\n\n>> ¿Por qué guardar en primer lugar la URL?\nPorque
+  tengo que entrar a futuro. \nAhí dice que puedo usar un hash que no requiera guardar.
+  \nHash. \n(Pero que problemas trae ésto?)\n(Qué ventajas?)\n(Pensar en el usuario)\n\n\n>>
+  Le ves ventajas o desventajas?\nCon la cantidad de direcciones, una base podŕia
+  ser grande. Por eso el hasheo podría ser mejor. El tiempo sería siemre el mismo.
+  En la base no. Ocuparía mucho. \n>> Le ves algún problema más a persistir?\n(Tiempos
+  de acceso a lla base)\nTiempo constante. O(1) --> WOW. No lo vio en GDD\nCapaz el
+  tiempo de una funcion de hash es \"mas constante\"\n\n>> Explicación: sí, en la
+  práctica las funciones de hash son o(1)\n\n\n>> Paréntesis: de dónde te suena SHA1?
+  \ \nen git. \n\n\n\n  >> Hacé un diagrama de arquitectura. Debe tener\nUn nodo\nUn
+  servidor\nUna base de datos\nUn actor\nLa nubecita\n\n\n>> ¿Qué es un nodo?\nEl
+  componente físico donde se despliegan los componentes\nPor ejemplo mi notebook\nEl
+  nodo está en internet\nFalta resolver lo de entrar a la URL pequeña\nPero no es
+  tanto ahora que lo pienso... es hacer un path, buscar y hacer un redirect\n>> ¿Cuál
+  redirect usar?\n301 (permanente) vs otros?\nPros y cons: eficiencia vs funcionalidad\n301:
+  Es mas rápido, si se cayó no te enterás. Es mas barato.\n\n>> Fijate que boludez
+  que usar uno u otro es más \"caro\"\nPero no puedo trackear!!!!\nEs decisión de
+  negocio. \n>> Cómo podríamos averiguar qué hacer bitly?\nUna opción es con network
+  (ojo, hay que mantener la historia!)\no con postman\n\n\n"
 language: text
 id_format: "%05d"
 order:
