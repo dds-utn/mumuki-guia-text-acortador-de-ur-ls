@@ -1,0 +1,1 @@
+Hacer un diagrama de arquitectura
