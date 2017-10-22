@@ -1,0 +1,1 @@
+Quizás necesites agregar estado al acortador para saber si la URL ya corta que acabas de generar ya fue generada :wink:.
