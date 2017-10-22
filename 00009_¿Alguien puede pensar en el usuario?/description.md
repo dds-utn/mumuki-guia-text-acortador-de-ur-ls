@@ -7,7 +7,7 @@ Ahora que sabemos que estamos frente a una aplicación Web, necesitaremos desarr
 > ```java
 > // Opción 1
 > get("/home", HomeController::show);
-> get("/urls/:key", UrlsController::expandir);
+> get("/:key", UrlsController::expandir);
 > get("/urls", UrlsController::acortar);
 > ```
 >
@@ -24,3 +24,4 @@ Ahora que sabemos que estamos frente a una aplicación Web, necesitaremos desarr
 > get("/urls/:key", UrlsController::expandir);
 > post("/urls", UrlsController::acortar);
 > ```
+> 

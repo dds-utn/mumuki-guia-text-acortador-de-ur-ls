@@ -8,7 +8,9 @@ language:
 teacher_info: 
 manual_evaluation: false
 choices:
-- value: a
+- value: Opción 1
+  checked: false
+- value: Opción 2
   checked: true
-- value: b
+- value: Opción 3
   checked: false
