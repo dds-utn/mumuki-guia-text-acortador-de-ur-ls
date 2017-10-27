@@ -1,4 +1,4 @@
-public class Acortador {
+class Acortador {
   private String dominio;
   
   public Acortador(String dominio) {
