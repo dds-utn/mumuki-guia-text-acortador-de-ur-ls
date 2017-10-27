@@ -1,1 +1,1 @@
-Hacer un diagrama de arquitectura
+> Hacer un diagrama de arquitectura (en la hoja)
