@@ -9,21 +9,21 @@ Ahora pensemos en las rutas de la aplicación. Necesitaremos rutas para...
  > ```java
  > // Opción 1
  > get("/home", HomeController::show);
- > get("/:key", UrlsController::expandir);
+ > get("/:hash", UrlsController::expandir);
  > get("/urls", UrlsController::acortar);
  > ```
 >
  > ```java
  > // Opción 2 
  > get("/", HomeController::show);
- > get("/urls/:key", UrlsController::expandir);
+ > get("/urls/:hash", UrlsController::expandir);
  > post("/urls", UrlsController::acortar);
  > ```
  >
  > ```java
  > // Opción 3
  > get("/", HomeController::show);
- > get("/:key", UrlsController::expandir);
+ > get("/:hash", UrlsController::expandir);
  > post("/urls", UrlsController::acortar);
  > ```
  >
