@@ -8,11 +8,12 @@ Por ejemplo, en Ruby podemos calcular estos hashes de la siguiente forma:
 
 ```ruby
 Digest::MD5.hexdigest("Hola Mundo")    # representado en hexadecimal (base 16)
+# => "d501194c987486789bb01b50dc1a0adb"
 Digest::MD5.base64digest("Hola Mundo") # representado en base 64
-
+# => "1QEZTJh0hnibsBtQ3BoK2w=="        # notá que se codifica usando números, letras y algunos símbolos
 Digest::SHA1.hexdigest("Hola Mundo")
+# => "48124d6dc3b2e693a207667c32ac672414913994"
 # etc...
-
 ```
 
-> ¡Probalo! Calculá el hash md5 de `'https://mumuki.io'` y `'https://en.wikipedia.org/wiki/Hash_function'`
+> ¡Probalo! Calculá el hash md5 de `'https://mumuki.io'` y `'https://en.wikipedia.org/wiki/Hash_function'` en base 64
