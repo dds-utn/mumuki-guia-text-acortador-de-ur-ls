@@ -1,15 +1,19 @@
 class MD5 {
   public static String generar(String plaintext) {
-    java.security.MessageDigest m = java.security.MessageDigest.getInstance("MD5");
-    m.reset();
-    m.update(plaintext.getBytes());
-    byte[] digest = m.digest();
-    java.math.BigInteger bigInt = new java.math.BigInteger(1,digest);
-    String hashtext = bigInt.toString(16);
-    while(hashtext.length() < 32 ){
-      hashtext = "0" + hashtext;
+    try {
+      java.security.MessageDigest m = java.security.MessageDigest.getInstance("MD5");
+      m.reset();
+      m.update(plaintext.getBytes());
+      byte[] digest = m.digest();
+      java.math.BigInteger bigInt = new java.math.BigInteger(1,digest);
+      String hashtext = bigInt.toString(16);
+      while(hashtext.length() < 32 ){
+        hashtext = "0" + hashtext;
+      }
+      return hashtext;    
+    } catch (Exception e) {
+      throw new RuntimeException(e);
     }
-    return hashtext;
   }
 }
 
