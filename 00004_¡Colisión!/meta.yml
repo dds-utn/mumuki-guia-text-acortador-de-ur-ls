@@ -6,13 +6,13 @@ type: problem
 extra_visible: false
 manual_evaluation: false
 choices:
-- value: Más de 0 y menos de 10^3
+- value: Más de 100 y menos de 10^6
   checked: false
-- value: Más de 10^3 y menos de 10^43
+- value: Más de 10^6 y menos de 10^9
   checked: false
-- value: Más de 10^43 y menos de 10^53
+- value: Más de 10^9 y menos de 10^13
   checked: true
-- value: Más de 10^53 y menos de 10^83
+- value: Más de 10^13 y menos de 10^19
   checked: false
-- value: Más de 10^83
+- value: Más de 10^19
   checked: false

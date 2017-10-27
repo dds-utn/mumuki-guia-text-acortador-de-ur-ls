@@ -1,3 +1,3 @@
-¡Bien! Cuidado que para mantener al enlace legible, se recomienda no utilizar caracteres especiales, por lo que el _encoding_`base64` no nos sirve. En su lugar se utiliza base 62 (10 dígitos, 26 letras latinas minúsculas y 26 mayúculas), lo que nos da 2,489307118×10^52 (7^62) combinaciones. ¡Son muchísimas URLs!  :scream:
+¡Bien! Cuidado que para mantener al enlace legible, se recomienda no utilizar caracteres especiales, por lo que el _encoding_`base64` no nos sirve. En su lugar se utiliza base 62 (10 dígitos, 26 letras latinas minúsculas y 26 mayúculas), lo que nos da 3,521614606×10^12 (62^7) combinaciones. ¡Son muchísimas URLs!  :scream:
 
 Pero no nos engañemos: por más que la probabilidad de colisionar se muy baja, no es imposible. Por eso, hay que seleccionar con cuidado la función de hash a utilizar, para que se aproxime tanto como se pueda a una [función de hash perfecta](https://en.wikipedia.org/wiki/Perfect_hash_function).
