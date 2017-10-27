@@ -2,7 +2,7 @@
 tags: []
 layout: input_bottom
 editor: code
-type: problem
+type: reading
 extra_visible: false
 language: java
 manual_evaluation: false

@@ -14,6 +14,11 @@ class UrlController {
 }
 ```
 
+> Ahora bien, existen muchos tipos de redirecciones, que se pueden agrupar en dos grandes categorías: permantes y temporales. 
+> 
+> Leé mas sobre éstos [acá](https://en.wikipedia.org/wiki/URL_redirection#HTTP_status_codes_3xx) y pensá ¿nos conviene usar un código `301` o un `302` (o `307`)? ¿Qué ventajas tendría una u otra opción?
+> 
+> Y no, no hay una única respuesta posible 
 
 
 
