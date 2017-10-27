@@ -4,8 +4,6 @@ layout: input_bottom
 editor: single_choice
 type: problem
 extra_visible: false
-language: 
-teacher_info: 
 manual_evaluation: false
 choices:
 - value: Nuestra aplicación no necesitará del concepto de usuario ni formularios de

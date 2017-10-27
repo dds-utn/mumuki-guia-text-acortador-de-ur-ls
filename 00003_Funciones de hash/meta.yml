@@ -5,6 +5,5 @@ editor: code
 type: playground
 extra_visible: false
 language: ruby
-teacher_info: 
 manual_evaluation: false
 choices: []

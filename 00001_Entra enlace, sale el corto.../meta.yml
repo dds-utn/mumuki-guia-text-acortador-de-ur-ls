@@ -4,8 +4,6 @@ layout: input_bottom
 editor: multiple_choice
 type: problem
 extra_visible: false
-language: 
-teacher_info: 
 manual_evaluation: false
 choices:
 - value: Sin importar la URL ingresada, se genera la misma URL corta
