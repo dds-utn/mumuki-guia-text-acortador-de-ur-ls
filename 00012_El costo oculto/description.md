@@ -17,4 +17,4 @@ Ahora bien, usar una redirección temporal como el `302` también tiene sus bene
 > etc...
 > ```
 > 
-> ...e ingresá el resultado a continuación.  
+> ...e ingresá la primera línea del resultado a continuación.  
