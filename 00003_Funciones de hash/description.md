@@ -16,4 +16,4 @@ Digest::SHA1.hexdigest("Hola Mundo")
 # etc...
 ```
 
-> ¡Probalo! Calculá el hash md5 de `'https://mumuki.io'` y `'https://en.wikipedia.org/wiki/Hash_function'` en base 64
+> ¡Probalo! Calculá el hash md5 de `'https://mumuki.io'` y `'https://en.wikipedia.org/wiki/Hash_function'` en _base 64_
