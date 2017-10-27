@@ -7,14 +7,14 @@ extra_visible: false
 manual_evaluation: false
 choices:
 - value: Nuestra aplicación no necesitará del concepto de usuario ni formularios de
-    registración o inicio de sesión
-  checked: true
-- value: Nuestra aplicación no necesitará del concepto de usuario, pero sí formularios
-    de registración e inicio de sesión
+    registro o inicio de sesión
   checked: false
-- value: Nuestra aplicación necesitará del concepto de usuario y  formularios de registración
+- value: Nuestra aplicación no necesitará del concepto de usuario, pero sí formularios
+    de registro e inicio de sesión
+  checked: true
+- value: Nuestra aplicación necesitará del concepto de usuario y  formularios de registro
     e inicio de sesión
   checked: false
 - value: Nuestra aplicación necesitará del concepto de usuario, pero no formularios
-    de registración o inicio de sesión
+    de registro o inicio de sesión
   checked: false
