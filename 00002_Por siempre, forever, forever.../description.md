@@ -7,7 +7,7 @@ La respuesta es: _depende_ de cada acortardor, y hacerlo de una forma u otra tie
 >   * para toda URL larga hay una corta (existencia);
 >   * para dos URLs largas iguales, hay una única corta (unicidad);
 >   * la relación es _eterna_;
->   * y que para dos URLs, independientemente de su longitud, la URL resultante es del mismo tamaño...
+>   * y que para dos URLs cualquiera, independientemente de su longitud, las resultantes son del mismo tamaño...
 > 
 > Te toca pensar a vos: ¿es posible escribir una [_función pura_](https://en.wikipedia.org/wiki/Pure_function) que resuelva esta problemática? ¿Qué tipo de funciones podrían ayudarnos?
 
