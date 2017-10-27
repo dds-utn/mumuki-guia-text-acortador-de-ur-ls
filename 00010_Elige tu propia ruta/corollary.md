@@ -1,3 +1,3 @@
 Parece bastante claro qué sucederá cuando se ingrese a la ruta `home` (se mostrará la página principal) o cuando se ingrese a  `acortar` (se devolverá una nueva versión de la home, que ahora muestre el enlace corto). ¿Y qué sucederá cuando se ingrese a expandir? :open_mouth:
 
-Por ejemplo, si la url corta de `http://wikipedia.org/` es `http://cortisimo.com/2bu3xJ3`, nos gustaría poder entrar a `http://cortisimo.com/2bu3xJ3` y *de alguna* forma aterrizar en la querida Wiki :airplane:. ¿Cómo podremos lograr esto?
+Por ejemplo, si la url corta de `http://wikipedia.org/` es `http://cortisimo.com/2bu3xJ3`, nos gustaría poder entrar a `http://cortisimo.com/2bu3xJ3` y *de alguna* forma aterrizar en la querida Wiki :airplane:. ¿Cómo podremos lograr ésto?
