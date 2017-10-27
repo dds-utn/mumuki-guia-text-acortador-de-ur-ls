@@ -9,5 +9,5 @@ La respuesta es: _depende_ de cada acortardor, y hacerlo de una forma u otra tie
 >   * la relación es _eterna_;
 >   * y que para dos URLs cualquiera, independientemente de su longitud, las resultantes son del mismo tamaño...
 > 
-> Te toca pensar a vos: ¿es posible escribir una [_función pura_](https://en.wikipedia.org/wiki/Pure_function) que resuelva esta problemática? ¿Qué tipo de funciones podrían ayudarnos?
+> Te toca pensar a vos: ¿es posible escribir una [_función pura_](https://en.wikipedia.org/wiki/Pure_function) que resuelva esta problemática? ¿Qué tipo de funciones podrían ayudarnos? :thought_balloon:
 
