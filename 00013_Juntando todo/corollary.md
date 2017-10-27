@@ -1,1 +1,1 @@
-¿Y cómo se grafica todo ésto?
+¿Y cómo se grafica todo esto?
