@@ -8,22 +8,22 @@ Ahora pensemos en las rutas de la aplicación. Necesitaremos rutas para...
  > 
  > ```java
  > // Opción 1
- > get("/home", HomeController::show);
- > get("/:hash", UrlsController::expandir);
- > get("/urls", UrlsController::acortar);
+ > get("/home", homeController::show);
+ > get("/:hash", urlsController::expandir);
+ > get("/urls", urlsController::acortar);
  > ```
 >
  > ```java
  > // Opción 2 
- > get("/", HomeController::show);
- > get("/urls/:hash", UrlsController::expandir);
- > post("/urls", UrlsController::acortar);
+ > get("/", homeController::show);
+ > get("/urls/:hash", urlsController::expandir);
+ > post("/urls", urlsController::acortar);
  > ```
  >
  > ```java
  > // Opción 3
- > get("/", HomeController::show);
- > get("/:hash", UrlsController::expandir);
- > post("/urls", UrlsController::acortar);
+ > get("/", homeController::show);
+ > get("/:hash", urlsController::expandir);
+ > post("/urls", urlsController::acortar);
  > ```
  >
