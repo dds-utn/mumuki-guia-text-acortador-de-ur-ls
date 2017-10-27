@@ -10,7 +10,6 @@ class MD5 {
       hashtext = "0"+hashtext;
     }
     return hashtext;
-    
   }  
   
 }
