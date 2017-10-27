@@ -1,1 +1,19 @@
-TODO
+Acortador acortador = new Acortador("midominio.com");
+
+@Test
+public void si_se_ingresan_dos_urls_diferentes_que_no_colisionan_se_generan_urls_cortas_diferentes() {
+  
+  
+}
+
+public class MD5 {
+  public static String generar(String entrada) {
+    Map<String, String> urls = new HashMap<>();
+    urls.put("http://misitio.com/foo", "AAA");
+    urls.put("http://misitio.com/bar", "BBB");
+    urls.put("http://misitio.com/baz", "CCC");
+    urls.put("http://misitio.com/foobar", "AAA");
+    urls.put("http://misitio.com/foobar2", "AAA");
+    return urls.getOrDefault(entrada, entrada);
+  }
+}

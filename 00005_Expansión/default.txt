@@ -1,1 +1,12 @@
-/*...previousSolution...*/
+public class Acortador {
+  private String dominio;
+  
+  public Acortador(String dominio) {
+    this.dominio = dominio;
+  }
+  
+  public String acortar(String urlLarga) {
+    String hash = MD5.generar(urlLarga);
+    return "http://" + dominio + "/" + hash;
+  }
+}
