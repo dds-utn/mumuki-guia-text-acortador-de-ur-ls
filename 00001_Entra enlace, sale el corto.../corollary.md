@@ -1,4 +1,4 @@
-¡Exactamente! En general, los acortadores de enlaces generan URLs de igual longitud independientemente de cual sea la ingresada. Por ejemplo: 
+¡Exactamente! En general, los acortadores de enlaces generan URLs de igual longitud independientemente de cuál sea la ingresada. Por ejemplo: 
 
 | Corta   | Larga   |
 |---------|---------|
@@ -8,4 +8,4 @@
 
 Y además la mayoría de ellos generan una misma URL corta para una larga: la función de transformación que utilizan cumple la propiedad de unicidad. :open_mouth:
 
-¿Ah, no nos creés? ¡Repetí el experimento con [Cor.to](http://cor.to)! :wink:  Y luego seguínos. 
+¿Ah, no nos creés? ¡Repetí el experimento con [Cor.to](http://cor.to)! :wink:  Y luego seguinos. 
