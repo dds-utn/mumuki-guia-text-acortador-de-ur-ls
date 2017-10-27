@@ -1,6 +1,8 @@
 ¿Y cuánto duran los enlaces? ¿Expiran en algún momento? Es decir, si dentro de 1 año entro de nuevo a un enlace corto, ¿seguirá funcionando? :alarm_clock:
 
-La respuesta es: _depende_ de cada acortardor. Peeeero, por simplicidad (y conveniencia), asumamos que los enlaces **no** expiran. 
+La respuesta es: _depende_ de cada acortardor, y hacerlo de una forma u otra tiene sus ventajas y desventajas (¿Cuáles? ¡Pensálas! :wink:).   
+
+Peeeero, por simplicidad (y conveniencia), asumamos que los enlaces **no** expiran. 
 
 > Ahora que sabemos que...
 > 
