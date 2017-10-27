@@ -4,5 +4,26 @@ Ahora pensemos en las rutas de la aplicación. Necesitaremos rutas para...
  * ...acortar el enlace y redirigir a la página principal cuando presionemos el _call to action_ (el botón princial) `Acortar`;
  * ...expandir la url corta, dado su `hash`
 
-> ¿Cómo se verán estas rutas? ¿Qué métodos utilizaremos? ¡Completá el siguiente código!
- 
+> Suponiendo que nuestras URLs cortas fueran de la forma `https://cortisimo.com/abc1234d`, ¿cuáles de las siguientes rutas permitirían implementar el flujo de nuestra aplicación?
+ > 
+ > ```java
+ > // Opción 1
+ > get("/home", HomeController::show);
+ > get("/:key", UrlsController::expandir);
+ > get("/urls", UrlsController::acortar);
+ > ```
+>
+ > ```java
+ > // Opción 2 
+ > get("/", HomeController::show);
+ > get("/urls/:key", UrlsController::expandir);
+ > post("/urls", UrlsController::acortar);
+ > ```
+ >
+ > ```java
+ > // Opción 3
+ > get("/", HomeController::show);
+ > get("/:key", UrlsController::expandir);
+ > post("/urls", UrlsController::acortar);
+ > ```
+ >

@@ -1,3 +1,0 @@
-get("/", HomeController::show);
-???("/???", UrlsController::expandir);
-???("/???", UrlsController::acortar);

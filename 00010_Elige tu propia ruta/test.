@@ -1,5 +1,2 @@
-equal:
-  | get("/", HomeController::show);
-  | post("/enlaces/", UrlsController::expandir);
-  | get("/:hash", UrlsController::acortar);
-ignore_whitespace: true
+---
+equal: Opción 3
