@@ -5,7 +5,7 @@ La respuesta es: _depende_ de cada acortardor, y hacerlo de una forma u otra tie
 > Ahora que sabemos que...
 > 
 >   * para toda URL larga hay una corta (existencia);
->   * para dos URLs lasgas iguales, hay una única corta (unicidad);
+>   * para dos URLs largas iguales, hay una única corta (unicidad);
 >   * la relación es _eterna_;
 >   * y que para dos URLs, independientemente de su longitud, la URL resultante es del mismo tamaño...
 > 
