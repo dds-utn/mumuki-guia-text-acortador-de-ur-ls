@@ -1,0 +1,20 @@
+---
+tags: []
+layout: input_bottom
+editor: multiple_choice
+type: problem
+extra_visible: false
+manual_evaluation: false
+choices:
+- value: La computadora que alojará nuestra aplicación
+  checked: true
+- value: El navegador con el que el usuario accederá a nuestra aplicación
+  checked: true
+- value: Internet
+  checked: true
+- value: La base de datos donde almacenaremos los enlaces
+  checked: true
+- value: La clase `Acortador`
+  checked: false
+- value: El programa servidor que programamos y atiende los pedidos
+  checked: true

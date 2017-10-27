@@ -3,17 +3,22 @@ name: Acortador de enlaces
 locale: es
 type: learning
 beta: false
-teacher_info: "\n(Nota mental: se centró en el dominio y no en la aplicación)\n\n\n\n\n
-  \ >> Hacé un diagrama de arquitectura. Debe tener\nUn nodo\nUn servidor\nUna base
-  de datos\nUn actor\nLa nubecita\n\n\n>> ¿Qué es un nodo?\nEl componente físico donde
-  se despliegan los componentes\nPor ejemplo mi notebook\nEl nodo está en internet\nFalta
-  resolver lo de entrar a la URL pequeña\nPero no es tanto ahora que lo pienso...
-  es hacer un path, buscar y hacer un redirect\n>> ¿Cuál redirect usar?\n301 (permanente)
-  vs otros?\nPros y cons: eficiencia vs funcionalidad\n301: Es mas rápido, si se cayó
-  no te enterás. Es mas barato.\n\n>> Fijate que boludez que usar uno u otro es más
-  \"caro\"\nPero no puedo trackear!!!!\nEs decisión de negocio. \n>> Cómo podríamos
-  averiguar qué hacer bitly?\nUna opción es con network (ojo, hay que mantener la
-  historia!)\no con postman\n\n\n\niaas vs paas\n"
+teacher_info: |2
+
+  (Nota mental: se centró en el dominio y no en la aplicación)
+
+
+
+
+    >> Hacé un diagrama de arquitectura. Debe tener
+  Un nodo
+  Un servidor
+  Una base de datos
+  Un actor
+  La nubecita
+
+
+  iaas vs paas
 language: text
 id_format: "%05d"
 order:
