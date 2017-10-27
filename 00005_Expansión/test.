@@ -1,4 +1,4 @@
-Acortador acortador = new Acortador("midominio.com");
+Acortador acortador = new Acortador("cortisimo.com");
 
 @Test
 public void dos_enlaces_iguales_generan_urls_cortas_diferentes() {
@@ -12,6 +12,14 @@ public void dos_enlaces_diferences_generan_urls_cortas_diferentes() {
   Assert.assertNotEquals(
     acortador.acortar("http://misitio.com/foo"),
     acortador.acortar("http://misitio.com/bar"));
+}
+
+@Test
+public void una_url_corta_arranca_con_el_dominio_corto() {
+  String corto = acortador.acortar("http://misitio.com/foo");
+  Assert.assertTrue(
+    corto + " empieza con http://cortisimo.com", 
+    corto.startsWith("http://cortisimo.com"));
 }
 
 
