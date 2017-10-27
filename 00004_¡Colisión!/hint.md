@@ -6,4 +6,4 @@ http://cortisimo.com/aB50h9C
                       +---- ruta de 7 caracteres
 ```
 
-Prestá atencion a que sólo utiliza para la ruta números y letras mayúsculas y minúsculas. No se usan caracteres especiales; entonces ¿podremos utilizar representar el hash en base 64? 
+Prestá atencion a que la ruta solo utiliza números y letras mayúsculas y minúsculas. No se usan caracteres especiales; entonces ¿podremos utilizar representar el hash en base 64? 

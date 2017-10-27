@@ -8,7 +8,7 @@ manual_evaluation: false
 choices:
 - value: Menos de 10^3
   checked: false
-- value: Menos 10^43
+- value: Menos de 10^43
   checked: false
 - value: Menos de 10^53
   checked: true
