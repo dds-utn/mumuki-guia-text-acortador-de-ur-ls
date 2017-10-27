@@ -8,10 +8,10 @@ manual_evaluation: false
 choices:
 - value: Nuestra aplicación no necesitará del concepto de usuario ni formularios de
     registro o inicio de sesión
-  checked: false
+  checked: true
 - value: Nuestra aplicación no necesitará del concepto de usuario, pero sí formularios
     de registro e inicio de sesión
-  checked: true
+  checked: false
 - value: Nuestra aplicación necesitará del concepto de usuario y  formularios de registro
     e inicio de sesión
   checked: false
