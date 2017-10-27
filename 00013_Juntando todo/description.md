@@ -7,3 +7,5 @@ Ahora que ya tenemos todas las piezas de nuestro rompecabezas, juntemos todo. ¡
 
 
 > ¿Qué componentes físicos deberían aparecer en un diagrama de despliegue de nuestra aplicación? ¡Seleccionalos!
+>
+> Ah, y si tenés dudas sobre qué es un nodo, mirá la ayuda :wink:
