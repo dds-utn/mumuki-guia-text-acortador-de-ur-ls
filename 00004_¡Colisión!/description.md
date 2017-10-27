@@ -6,5 +6,4 @@ Pensá que si el dominio de la función (en este caso, URLs largas) es más gran
 
 ...inevitablemente habrá colisiones: dos URLs largas diferentes generarán la misma URL corta. :confused: Matemáticamente hablando, decimos que una función de hash es _no inyectiva_. 
 
-> Ahora bien, ¿es esto un verdadero problema? ¿Qué propiedades debería cumplir la función de hash para que esto no nos preocupe?
-> Y ¿cuántas posibles URLs se podrían representar usando solo 7 caracteres?  
+> ¡Pará! Cuantifiquemos un poco.... ¿cuántas posibles URLs se pueden direccionar con rutas de 7 caracteres?
