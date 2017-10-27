@@ -6,3 +6,9 @@ Así, nuestros servidores recibirán menos pedidos. ¡Esto es mucho más barato!
 
 Ahora bien, usar una redirección temporal como el `302` también tiene sus beneficios: al volver siempre a nuestros servidores, podemos llevar estadísticas de uso que quizás le sean útiles a quien generó el enlace. Por ejemplo, podríamos llevar un contandor de cuántos clicks recibió un link. :mag:
 
+> ¡Veamos qué hacen los que saben! Averiguá mediante `curl` qué código de redirección responde Bitly.
+> 
+> ```bash
+> $ curl -i http://bit.ly/2hVRfWR
+> ?????
+> ```
