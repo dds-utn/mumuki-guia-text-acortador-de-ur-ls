@@ -1,1 +1,2 @@
-TODO
+equal: 'HTTP/1.1 301 Moved Permanently'
+ignore_whitespace: true
