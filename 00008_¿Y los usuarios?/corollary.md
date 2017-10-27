@@ -1,0 +1,3 @@
+¡Exacto! Para poder acortar enlaces **no necesitamos** de un usuario registrado en la aplicación, dado que la única información persistente es global para todos los usuarios del sistema (el diccionario de enlaces). 
+
+Ahora bien, ¿podría **ser útil** contar con usuarios? ¿Qué casos de uso podríamos soportar si lo hiciéramos? ¿Qué datos podriamos guardar y que funcionalidades podríamos ofrecer? Te toca pensarlo a vos :wink:.

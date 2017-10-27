@@ -6,6 +6,9 @@ class MD5 {
       m.update(plaintext.getBytes());
       byte[] digest = m.digest();
       java.math.BigInteger bigInt = new java.math.BigInteger(1,digest);
+      
+      // Generaremos el string en base 16,
+      // en lugar de base 62, por simplicidad. 
       String hashtext = bigInt.toString(16);
       while(hashtext.length() < 32 ){
         hashtext = "0" + hashtext;
