@@ -4,5 +4,5 @@ Supongamos que María ingresó a `http://cortisimo.com/2bu3xJ3`, y el servidor r
 
 Así, nuestros servidores recibirán menos pedidos. ¡Esto es mucho más barato! :moneybag: Notemos cómo un mero código HTTP puede cambiar drásticamente nuestra carga :sunglasses:.
 
-Ahora bien, usar una redirección temporal también tiene sus beneficios: al volver siempre a nuestros servidores, podemos llevar estadísticas de uso que quizás le sean útiles a quien generó el enlace.  
+Ahora bien, usar una redirección temporal como el `302` también tiene sus beneficios: al volver siempre a nuestros servidores, podemos llevar estadísticas de uso que quizás le sean útiles a quien generó el enlace. Por ejemplo, podríamos llevar un contandor de cuántos clicks recibió un link. :mag:
 
