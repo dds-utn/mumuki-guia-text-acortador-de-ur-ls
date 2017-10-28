@@ -6,6 +6,9 @@ Hay muchas opciones, algunas más económicas, simples, seguras o robustas que o
   * conectando tu computadora o computadoras a internet y asegurándote de que esté disponible a toda hora
   * conectando tu computadora o computadoras en un _centro de cómputos_ (o _datacenter_) 
 * Utilizar servidores de terceros (también conocido como computación en la nube) que ofrezcan:
-  * infraestructura como servicio;
-  * plataforma como servicio; 
-  * software como servicio.
+  * _IaaS_: infraestructura como servicio;
+  * _PaaS_: plataforma como servicio; 
+  * _SaaS_:software como servicio.
+
+> Una de las opciones más simples es utilizar Heroku, un PaaS. Buscá y navegá la página de este proveedor y respondé: ¿cómo se despliega una aplicación en Heroku? 
+> 

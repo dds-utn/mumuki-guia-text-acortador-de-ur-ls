@@ -1,8 +1,14 @@
 ---
 tags: []
 layout: input_bottom
-editor: code
-type: reading
+editor: single_choice
+type: problem
 extra_visible: false
 manual_evaluation: false
-choices: []
+choices:
+- value: Usando FTP
+  checked: false
+- value: Usando Git
+  checked: true
+- value: Subiendo tus archivos desde una consola Web
+  checked: false
