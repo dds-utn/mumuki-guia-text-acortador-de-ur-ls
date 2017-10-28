@@ -7,7 +7,7 @@ class UrlController {
   Acortador acortador = new Acortador("http://cortisimo.com");
   
   // Recordemos que se corresponde con la ruta get("/:hash", urlsController::expandir);
-  public void acortar(Request pedido, Response respuesta) {
+  public void expandir(Request pedido, Response respuesta) {
     String expandida = acortador.expandir(pedido.queryParam("hash"));
     respuesta.redirect(expandida);
   }
