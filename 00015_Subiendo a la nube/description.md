@@ -10,5 +10,6 @@ Hay muchas opciones, algunas más económicas, simples, seguras o robustas que o
   * _PaaS_: plataforma como servicio; 
   * _SaaS_:software como servicio.
 
-> Una de las opciones más simples es utilizar Heroku, un PaaS. Buscá y navegá la página de este proveedor y respondé: ¿cómo se despliega una aplicación en Heroku? 
+> 1. Investigá rápidamente en la Web qué significa cada una de las siglas anteriores. 
+> 1. Una de las opciones más simples es utilizar Heroku, un PaaS. Buscá y navegá la página de este proveedor y respondé: ¿cómo se > despliega una aplicación en Heroku? 
 > 
